@@ -1,0 +1,20 @@
+name: lerobot-act
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - ffmpeg
+  - git
+  - pip:
+      - "lerobot[calvin]"
+      - huggingface_hub
+      - hf_transfer
+      - tensorboard
+      - pandas
+      - pyarrow
+      - matplotlib
+      - seaborn
+      - opencv-python
+      - tqdm

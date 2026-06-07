@@ -1,0 +1,10 @@
+lerobot[calvin]
+huggingface_hub
+hf_transfer
+tensorboard
+pandas
+pyarrow
+matplotlib
+seaborn
+opencv-python
+tqdm
